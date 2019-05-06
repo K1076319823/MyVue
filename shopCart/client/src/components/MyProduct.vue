@@ -1,4 +1,5 @@
 <template>
+  <!--测试显示-------------文本-->
     <div class="product">
       <!--<h1>product组件</h1>-->
       <div class="container-fluid">
