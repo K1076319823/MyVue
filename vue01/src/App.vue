@@ -1,12 +1,16 @@
 <template>
   <div id="app">
-    你好
+    <Header/>
   </div>
 </template>
 
 <script>
+import Header from './components/Header'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Header
+  }
 }
 </script>
 
