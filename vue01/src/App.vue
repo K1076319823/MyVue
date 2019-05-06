@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <Header/>
+    <MyHeader/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
+import MyHeader from './components/MyHeader'
 export default {
   name: 'App',
   components: {
-    Header
+    MyHeader
   }
 }
 </script>
 
 <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
+  #app{
+    background-color: lightgoldenrodyellow;
+    border: 1px double lightblue;
+  }
 </style>
