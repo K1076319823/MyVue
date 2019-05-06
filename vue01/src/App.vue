@@ -9,14 +9,12 @@
 <script>
 
 import MyHeader from './components/MyHeader'
-import A from './components/A'
-import B from './components/B'
 
 
 export default {
   name: 'App',
   components: {
-    MyHeader,A,B
+    MyHeader
   }
 }
 </script>

@@ -1,8 +1,8 @@
 <template>
     <div class="myheader">
         <h1>header组件</h1>
-        <router-link to="{path:'./A'}">跳转A组件</router-link>
-        <router-link to="{path:'./B'}">跳转B组件</router-link>
+        <router-link :to="{path:'/A'}">跳转A组件</router-link>
+        <router-link :to="{path:'/B'}">跳转B组件</router-link>
     </div>
 </template>
 <script>
