@@ -11,7 +11,8 @@ export default {
 </script>
 
 <style>
-/* #app {
- 
-} */
+#app {
+  font-size: 20px;
+  color: lightcoral;
+}
 </style>
