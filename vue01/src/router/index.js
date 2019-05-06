@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 import A from '../components/A';
-import B from
+import B from 
 export default new Router({
   routes: [
     {path:'/A',component:A},
